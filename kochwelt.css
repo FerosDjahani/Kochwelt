@@ -1,13 +1,33 @@
 body {
 
     margin: 0;
-    background-color: #cde2f3 !important;
     font-family: 'Lobster Two', cursive;
     font-family: 'Raleway', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
 
 /* --------------------------------------------banner-------------------------------------------- */
+
+.logkoch{
+    width: 200px;
+}
+
+.kochlog{
+    padding: 10px;
+    background-color: rgb(108, 179, 108);
+    cursor: pointer;
+}
+
+.hover:hover{
+
+    color: rgb(108, 179, 108);
+    cursor: pointer;
+}
+
+.colordiv{
+
+    background-color: rgba(228, 226, 226, 0.767);
+}
 
 .banner2 img {
 
@@ -19,6 +39,14 @@ body {
 #lasagne {
 
     border-radius: 10px;
+}
+
+.newstyle{
+    font-size: 28px;
+    padding: 25px;
+    margin-top: 30px;
+    text-decoration: underline;
+    
 }
 
 .logo {
@@ -104,7 +132,7 @@ body {
 
 .nav_menu a:hover {
 
-    color: #dd1e1e;
+    color: rgb(108, 179, 108);
 }
 
 .banner {
@@ -161,7 +189,7 @@ body {
 
 .nav_menu_mobile a:hover{
 
-    color: #dd1e1e;
+    color: rgb(108, 179, 108);
 }
 
 .nav_menu_mobile img{
@@ -547,7 +575,7 @@ body {
 .btn button {
 
     width: 150px;
-    background-color: #dd1e1e;
+    background-color: rgb(108, 179, 108);
     font-size: 24px;
     font-family: 'Raleway';
     font-weight: bold;
@@ -555,6 +583,10 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.rezept-des-tages button{
+    background-color: rgb(75, 131, 75);
 }
 
 @media(max-width:750px){
@@ -631,13 +663,14 @@ body {
 
 .ingrends {
 
-    background-color: #93c2e9;
+    background-color: rgb(108, 179, 108);
     padding: 15px;
     margin: 25px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .coocking_way {
@@ -769,6 +802,7 @@ footer {
 
         height: 100%;
         flex-direction: column;
+        background-color: rgb(108, 179, 108);
     }
 }
 
@@ -844,7 +878,7 @@ footer {
 
 .footer_content a:hover {
 
-    color: #dd1e1e;
+    color: rgb(108, 179, 108);
 }
 
 #social{
@@ -1029,6 +1063,7 @@ footer {
     display: flex ;
     justify-content: center ;
      ;  
+     margin-top: 35px;
  }
 
 
@@ -1078,7 +1113,7 @@ footer {
 .rezept-des-tages button{
 
     width: 150px;
-    background-color: #dd1e1e;
+    background-color: rgb(108, 179, 108);
     font-size: 24px;
     font-family: 'Raleway';
     font-weight: bold;
@@ -1099,9 +1134,13 @@ footer {
     width: 100%;
     margin-top: 80px;
     margin-bottom: 100px;
-    background-color: #aed2f1;
+   
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.buttgreen:hover{
+    background-color: rgb(79, 114, 79);
 }
 
 .all-menus img{
@@ -1122,7 +1161,7 @@ footer {
 .choice button{
 
     width: 150px;
-    background-color: #dd1e1e;
+    background-color: rgb(108, 179, 108);
     font-size: 24px;
     font-family: 'Raleway';
     font-weight: bold;
@@ -1133,4 +1172,4 @@ footer {
     margin-top: 30px;
     width: 200px;
     border-radius: 15px;
-}
+} 
